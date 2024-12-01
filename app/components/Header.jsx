@@ -8,7 +8,7 @@ const Header = () => {
           {/* Logo */}
           <Link href="/">
             <h1 className="py-2 px-4 text-2xl font-bold cursor-pointer hover:text-yellow-400">
-              MOALBOAL
+              <img src="header_assets/MOALBOAL_LOGO1.svg" alt="" width={120} height={100}/>
             </h1>
           </Link>
           {/* Navigation Menu */}
