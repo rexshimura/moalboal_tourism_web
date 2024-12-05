@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AboutUs = () => {
+const Team = () => {
   const teamMembers = [
     {
       name: 'Joehanes Lauglaug',
@@ -103,13 +103,8 @@ const AboutUs = () => {
         </div>
       </div>
     </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 py-6 text-white text-center">
-        <p>&copy; 2024 Black Mavericks. All Rights Reserved.</p>
-      </footer>
     </div>
   );
 };
 
-export default AboutUs;
+export default Team;

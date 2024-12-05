@@ -4,7 +4,7 @@ const Home = () => {
     <>
     <div className="bg-gray-100">
       {/* Hero Section */}
-      <div className="hero min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('home_assets/home_newbg.svg')" }}>
+      <div className="hero min-h-screen bg-cover bg-center" style={{ backgroundImage: "url('home_assets/home_picbg.png')" }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-white">
           <div className="max-w-2xl">
@@ -53,7 +53,7 @@ const Home = () => {
               <p className="text-gray-600">Discover vibrant underwater wonders.</p>
             </div>
             <div className="card bg-white shadow-md p-6 rounded-lg">
-              <img src="home_assets/home_dive.svg" alt="Diving" className="rounded-lg mb-4" />
+              <img src="home_assets/home_dive.png" alt="Diving" className="rounded-lg mb-4" />
               <h3 className="text-xl font-bold mb-2">Diving</h3>
               <p className="text-gray-600">Dive into the colorful coral gardens.</p>
             </div>
@@ -72,20 +72,20 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="bg-gradient-to-t from-gray-600 to-gray-700 text-white py-24 text-center">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-6">Plan Your Trip</h2>
-          <p className="max-w-2xl mx-auto mb-6">
-            Get in touch with us to plan your dream vacation in Moalboal. Let us help you create unforgettable memories.
+      <section className="py-16 bg-gray-700 text-white text-center">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold mb-4">Plan Your Trip</h2>
+          <p className="text-lg mb-8">
+          Get in touch with us to plan your dream vacation in Moalboal. Let us help you create unforgettable memories.
           </p>
-          <button className="btn btn-outline bg-white px-8 py-3 text-lg">Contact Us</button>
+          <a
+            href="/contacts"
+            className="bg-white text-black px-8 py-3 rounded-btn hover:bg-gray-800 hover:text-white transition duration-200"
+          >
+            Contact Us
+          </a>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 py-6 text-white text-center">
-        <p>&copy; 2024 Moalboal Tourism. All Rights Reserved.</p>
-      </footer>
     </div>
     </>
   )
